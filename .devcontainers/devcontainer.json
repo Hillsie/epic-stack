@@ -2,13 +2,8 @@
     "name": "epic-stack",
     "build": {
         "dockerfile": "Dockerfile",
-    },
-    //"postCreateCommand": "npm install",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "streetsidesoftware.code-spell-checker",
-            ]
-        }
+    }
+    // Many options - https://containers.dev/implementors/json_reference/ 
+    //"postCreateCommand": "npm install"
     }
 }
