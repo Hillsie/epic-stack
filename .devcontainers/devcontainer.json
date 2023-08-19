@@ -1,0 +1,14 @@
+{
+    "name": "epic-stack",
+    "build": {
+        "dockerfile": "Dockerfile",
+    },
+    //"postCreateCommand": "npm install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "streetsidesoftware.code-spell-checker",
+            ]
+        }
+    }
+}
